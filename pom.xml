@@ -133,8 +133,10 @@
                 </requireJavaVersion>
                 <versionTxtRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.VersionTxtRule" />
                 <versionOsgiRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireOsgiCompatibleVersionRule" />
+                <!--
                 <versionRedhatRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireRedhatCompatibleVersionRule" />
                 <versionDebianRule implementation="org.eclipse.jetty.toolchain.enforcer.rules.RequireDebianCompatibleVersionRule" />
+                -->
               </rules>
             </configuration>
           </execution>
